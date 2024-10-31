@@ -48,7 +48,8 @@
       ],
       "settings": {
         "heading": "Lorem ipsum",
-        "flexDirection": "0"
+        "flexDirection": "0",
+        "image": "shopify://shop_images/Hero_Image_696px_Desktop.jpg"
       }
     },
     "image_with_text_card_EhABkE": {
