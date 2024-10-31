@@ -18,7 +18,28 @@
     },
     "image_with_text_card_YdBc7F": {
       "type": "image_with_text_card",
+      "blocks": {
+        "heading_content_block_KTrQ37": {
+          "type": "heading_content_block",
+          "settings": {
+            "heading": "cocococo",
+            "content": "<p>ahahahahahahasdbajbd</p>"
+          }
+        },
+        "heading_content_block_RHFDVb": {
+          "type": "heading_content_block",
+          "settings": {
+            "heading": "acacacacaca",
+            "content": "<p>cxjbhabhjajhbadsjbhadjbh</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_content_block_KTrQ37",
+        "heading_content_block_RHFDVb"
+      ],
       "settings": {
+        "heading": "Enter your section heading here"
       }
     }
   },
