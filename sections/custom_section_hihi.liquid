@@ -1,16 +1,26 @@
 <div>
-  hihi nenene
+  <div>
+    {{ section.settings.text_ne }}
+    <p>nis hao hahahaha</p>
+  </div>
 </div>
+
 {% schema %}
-  {
-    "name": "Custom section Hihi",
-    "settings": [],
-      "presets": [
+{
+  "name": "Custom Section",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "text_ne",
+      "label": "Content",
+      "info": "Enter your text content here."
+    }
+  ],
+  "presets": [
     {
       "name": "Custom Section",
-      "category": "Custom"
+      "category": "New Section"
     }
   ]
-
-  }
+}
 {% endschema %}
