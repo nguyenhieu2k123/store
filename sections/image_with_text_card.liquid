@@ -1,7 +1,6 @@
 <div id="section-{{ section.id }}" class="page-width page-width-desktop img-text-card">
     <div class="content-wrapper" style="flex-direction:{% if section.settings.flexDirection == '0' %}row{% else %}row-reverse{% endif %}">
-      <img src="https://s3-alpha-sig.figma.com/img/4d8e/5d79/6a0120a1c79d0e02cf945647321f2c41?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SFX5d20U~P8ULJx0Lz7H95zHtPF7p4Vd4-mWrhld8K8TcUUswA8PBbfOSmnXO0fytGUuO~~~MuYBX-Xi5KYpU~o2pq-chhidRXGDUI5BrXSRhKY6PRoV4xlXEvmiwoCR0mzyihneYiKRkHuWNtOlvVFUV0JTPTp20XuTcQLW8g5LSLrHMBjXIf0VQLxdfXRjd5Nv7H3YiPpFZl~7M~s1c7NdoQj9qz5j28xVmI2gvVixybEoMtyxM5pPGGayUJ2ALp~FBY~pJVDxHcm8xwhnKBiIKvzvbQIqF1Y~QC0NPsp4o8Cxv-sZN15f0QWAPWWk7HKSRJUuuZH95XQrJANUsA__" alt="Image" />
-      
+      <img src="{{ block.settings.image }}" width="684" height="800" alt="Image" />
       <div class="text-content">
         {% if section.settings.heading %}
           <h2 class="main-heading">{{ section.settings.heading }}</h2>
