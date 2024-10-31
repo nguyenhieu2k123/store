@@ -76,7 +76,8 @@
       ],
       "settings": {
         "heading": "Mollit aliquip do ipsum consectetur",
-        "flexDirection": "1"
+        "flexDirection": "1",
+        "image": "shopify://shop_images/image.png"
       }
     }
   },
