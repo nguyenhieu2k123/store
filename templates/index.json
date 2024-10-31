@@ -32,11 +32,19 @@
             "heading": "acacacacaca",
             "content": "<p>cxjbhabhjajhbadsjbhadjbh</p>"
           }
+        },
+        "heading_content_block_TVAW7M": {
+          "type": "heading_content_block",
+          "settings": {
+            "heading": "",
+            "content": "<p>asdad asdbajshdbjahsbdhas</p>"
+          }
         }
       },
       "block_order": [
         "heading_content_block_KTrQ37",
-        "heading_content_block_RHFDVb"
+        "heading_content_block_RHFDVb",
+        "heading_content_block_TVAW7M"
       ],
       "settings": {
         "heading": "Enter your section heading here"
