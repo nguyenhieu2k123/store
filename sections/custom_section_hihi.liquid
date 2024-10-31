@@ -2,7 +2,7 @@
   <h2>{{ section.settings.heading }}</h2>
   <div>
     
-    <p>{{ section.settings.text_ne }}</p>
+    <div class="content">{{ section.settings.text_ne }}</div>
   </div>
 </div>
 <style>
@@ -16,12 +16,14 @@
     line-height: 54px;
     text-align: center;
   }
-  .custom-section p{
+  .custom-section .content{
     font-family: Lato;
-font-size: 16px;
-font-weight: 400;
-line-height: 22px;
-text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    max-width: 810px;
+    margin: auto;
   }
 </style>
 {% schema %}
