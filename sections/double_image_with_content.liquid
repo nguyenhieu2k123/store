@@ -2,8 +2,8 @@
   <h2>{{ section.settings.heading }}</h2>
   <div>
     <div class="image-content">
-      <img src="{{ section.settings.left_img }}" width="385" height="628" alt="Image" />
-      <img src="{{ section.settings.right_img }}" width="385" height="628" alt="Image" />
+      <img src="{{ section.settings.left_img | image_url }}" width="385" height="628" alt="Image" />
+      <img src="{{ section.settings.right_img | image_url}}" width="385" height="628" alt="Image" />
     </div>
     <div class="text-content">{{ section.settings.text_ne }}</div>
   </div>
