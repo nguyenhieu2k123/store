@@ -1,14 +1,21 @@
 <div id="section-{{ section.id }}" class="page-width page-width-desktop img-text-card">
   <h2>{{ section.settings.heading }}</h2>
   <div>
-    <div class="image-content">
+    <div class="content-wrapper">
       <img src="https://s3-alpha-sig.figma.com/img/4d8e/5d79/6a0120a1c79d0e02cf945647321f2c41?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SFX5d20U~P8ULJx0Lz7H95zHtPF7p4Vd4-mWrhld8K8TcUUswA8PBbfOSmnXO0fytGUuO~~~MuYBX-Xi5KYpU~o2pq-chhidRXGDUI5BrXSRhKY6PRoV4xlXEvmiwoCR0mzyihneYiKRkHuWNtOlvVFUV0JTPTp20XuTcQLW8g5LSLrHMBjXIf0VQLxdfXRjd5Nv7H3YiPpFZl~7M~s1c7NdoQj9qz5j28xVmI2gvVixybEoMtyxM5pPGGayUJ2ALp~FBY~pJVDxHcm8xwhnKBiIKvzvbQIqF1Y~QC0NPsp4o8Cxv-sZN15f0QWAPWWk7HKSRJUuuZH95XQrJANUsA__" />
-      <img src="https://s3-alpha-sig.figma.com/img/4d8e/5d79/6a0120a1c79d0e02cf945647321f2c41?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SFX5d20U~P8ULJx0Lz7H95zHtPF7p4Vd4-mWrhld8K8TcUUswA8PBbfOSmnXO0fytGUuO~~~MuYBX-Xi5KYpU~o2pq-chhidRXGDUI5BrXSRhKY6PRoV4xlXEvmiwoCR0mzyihneYiKRkHuWNtOlvVFUV0JTPTp20XuTcQLW8g5LSLrHMBjXIf0VQLxdfXRjd5Nv7H3YiPpFZl~7M~s1c7NdoQj9qz5j28xVmI2gvVixybEoMtyxM5pPGGayUJ2ALp~FBY~pJVDxHcm8xwhnKBiIKvzvbQIqF1Y~QC0NPsp4o8Cxv-sZN15f0QWAPWWk7HKSRJUuuZH95XQrJANUsA__" />
+      <div class="text-content">{{ section.settings.text_ne }}</div>
     </div>
-    <div class="text-content">{{ section.settings.text_ne }}</div>
   </div>
 </div>
-
+<style>
+  .content-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+    margin: 32px 0;
+  }
+</style>
 {% schema %}
   {
     "name": "Image With Text Card",
