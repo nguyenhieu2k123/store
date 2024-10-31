@@ -1,6 +1,6 @@
 <div id="section-{{ section.id }}" class="page-width page-width-desktop img-text-card">
     <div class="content-wrapper" style="flex-direction:{% if section.settings.flexDirection == '0' %}row{% else %}row-reverse{% endif %}">
-      <img src="{{ section.settings.image }}" width="684" height="800" alt="Image" />
+      <img src="{{ section.settings.image | asset_url }}" width="684" height="800" alt="Image" />
       <div class="text-content">
         {% if section.settings.heading %}
           <h2 class="main-heading">{{ section.settings.heading }}</h2>
