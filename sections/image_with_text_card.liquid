@@ -4,7 +4,7 @@
       
       <div class="text-content">
         {% if section.settings.heading %}
-          <h2>{{ section.settings.heading }}</h2>
+          <h2 class="main-heading">{{ section.settings.heading }}</h2>
         {% endif %}
         {% for block in section.blocks %}
           <div class="block" id="block-{{ block.id }}">
@@ -26,6 +26,14 @@
     justify-content: center;
     margin: 32px 0;
     max-height: 800px;
+  }
+  .content-wrapper .main-heading{
+    font-family: Lora;
+font-size: 64px;
+font-weight: 400;
+line-height: 74px;
+text-align: left;
+
   }
   .content-wrapper img,
   .content-wrapper .text-content {
