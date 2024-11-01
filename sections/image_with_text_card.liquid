@@ -1,6 +1,6 @@
 <div id="section-{{ section.id }}" class="page-width page-width-desktop img-text-card">
     <div class="content-wrapper" style="flex-direction:{% if section.settings.flexDirection == '0' %}row{% else %}row-reverse{% endif %}">
-      <div>
+      <div class="image-wrapper">
         <img src="{{ section.settings.image | image_url }}" width="684" height="800" alt="Image" />
       </div>
       <div class="text-content">
@@ -27,6 +27,9 @@
     justify-content: center;
     margin: 4px 0;
     max-height: 800px;
+  }
+  .content-wrapper .image-wrapper{
+    width:50%;
   }
   .content-wrapper .main-heading{
     font-family: Lora;
